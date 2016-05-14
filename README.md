@@ -26,7 +26,7 @@ Along with a working C++ compiler and GNU software development tools you will ne
     tar -zxf mysql-4.6.2-1.tar.gz
     ln -s mysql-4.6.2-1 mysql
     cd mysql
-    ./configure --prefix=$HOME/infinidb/mysql
+    ./configure --prefix=/usr/local/Calpont/mysql
     make
     make install
     
@@ -37,7 +37,7 @@ Along with a working C++ compiler and GNU software development tools you will ne
     tar -zxf infinidb-4.6.2-1.tar.gz
     ln -s infinidb-4.6.2-1 infinidb
     cd infinidb
-    ./configure --prefix=$HOME/infinidb
+    ./configure --prefix=/usr/local/Calpont
     make
     make install
     
