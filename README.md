@@ -12,6 +12,7 @@ Along with a working C++ compiler and GNU software development tools you will ne
   * ncurses-devel
   * libxml2-devel
   * readline-devel
+  * gcc-c++
 
 ## Build steps
 
